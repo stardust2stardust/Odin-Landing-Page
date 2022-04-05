@@ -10,18 +10,21 @@
 </head>
 <body>
     <!-- this is where the Logo and 3 links will go--> 
-    <header>
-        <ul>
-            <li>Header Logo</li>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
+    <header class="dark-bg header">
+        <div>
+            <a href="nowhere" class="hlogo">Header Logo</a>
+        </div>
+        <div class="links">
+            
+            <a href="nowhere" class="hlink">header link one</a>
+            <a href="nowhere" class="hlink">header link two</a>
+            <a href="nowhere" class="hlink">header link three</a> 
+        </div>
     </header>
 
     <!-- Section 1: a section with 2 divs-->
-    <section>
-        <div>
+    <section class="dark-bg">
+        <div class="mainLeft">
             <!-- contains h1, p and button-->
             <h1>This Website is awesome</h1>
             <p>This website has some subtext that goes here under the main title.
@@ -29,55 +32,59 @@
             </p>
             <button>Sign up</button>
         </div>
-        <div>
+        <div class="mainRight">
             <img src="images/cows.jpg" alt="cute chickens">
         </div>
     </section>
 
     <!-- Section 2: contains a h2 and 4 divs below-->
-    <section>
+    <section class="light-bg">
         <div>
             <h2>Some random information.</h2>
         </div>
-        <div>
+        <div class="smallPics">
             <div><!-- image with text below -->
-                <img src="images/fish.jpg" alt="">
-                <p>subtext under and illustration or image</p>
+                <img src="images/mochi.png" alt="">
+                <p class="imgCaption">subtext under and illustration or image</p>
             </div>
             <div><!-- image with text below -->
-                <img src="images/chickens.jpg" alt="">
-                <p>subtext under and illustration or image</p>
+                <img src="images/mochi.png" alt="">
+                <p class="imgCaption">subtext under and illustration or image</p>
             </div>
             <div><!-- image with text below -->
-                <img src="images/pig.jpg" alt="">
-                <p>subtext under and illustration or image</p>
+                <img src="images/mochi.png" alt="">
+                <p class="imgCaption">subtext under and illustration or image</p>
             </div>
             <div><!-- image with text below -->
-                <img src="images/rabbit.jpg" alt="">
-                <p>subtext under and illustration or image</p>
+                <img src="images/mochi.png" alt="">
+                <p class="imgCaption">subtext under and illustration or image</p>
             </div>
         </div>   
     </section>
 
     <!-- Section 3: contains a quote and author-->
-    <section>
+    <section class="med-bg">
         <figure>
             <blockquote>
-                <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+                <p>Words can be like X-rays, if you use them properly—they’ll 
+                    go through anything. You read and you’re pierced.</p>
             </blockquote>
             <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
         </figure>
     </section>
 
     <!-- Section 4: contains 2 divs -->
-    <section>
-        <div>
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-        </div>
-        <div>
-            <button>Sign Up!</button>
+    <section class="light-bg-2">
+        <div class="call2A">   
+            <div>
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div>
+                <button class="btn2">Sign Up!</button>
+            </div>
         </div>
     </section>
+    <footer>Copyright The Odin Project 2022</footer>
 </body>
 </html>
